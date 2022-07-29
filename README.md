@@ -53,3 +53,19 @@ db.users.find({"address.zipcode": "10245"})
 - MongoDB Enterprise Advanced
 - MongoDB Charts- Data Visualisation
 - Realm Mobile Database
+
+## Column family databases queries - Google BigTable data storage system
+
+Also known as a wide column database. For dealing with a large volume of data.
+
+Data storing in column families, that group together frequently accessed and  related data.
+
+## Structure
+
+Column family is like a table in relational SQL database
+
+### Examples
+
+- cassandra
+- Apache Hbase
+- accumulo
